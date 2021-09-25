@@ -33,7 +33,7 @@ const Contact = () => {
             console.log('18+', 2021 - myArr[0], myArr[0])
             if (contact_fname | contact_lname | contact_phone | contact_email | contact_dob) {
                 console.log(result)
-                axios.post('http://parkzapass.pythonanywhere.com/', result)
+                axios.post('https://parkzapass.pythonanywhere.com/', result)
                     .then((response) => {
                         console.log('new save' + response);
                         alert('Saved in Database')
