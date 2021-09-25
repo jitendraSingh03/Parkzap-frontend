@@ -1,0 +1,31 @@
+.Contact{
+    margin-top: 10%;
+}
+h1{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.Contact>form{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.Contact>form>input{
+    padding: 10px;
+    margin: 5px;
+}
+.Contact>form>button{
+    padding: 10px;
+    margin: 5px;
+}
+.display-all{
+    display: flex;
+    flex-direction: column;
+}
+.display-all>.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
