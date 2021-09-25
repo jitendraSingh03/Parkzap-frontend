@@ -15,7 +15,7 @@ const Contact = () => {
 
     useEffect(() => {
         async function fetchData() {
-            const request = await axios.get('http://parkzapass.pythonanywhere.com/all-view/');
+            const request = await axios.get('https://parkzapass.pythonanywhere.com/all-view/');
             console.log(request)
             setContactList(request.data)
             return request;
